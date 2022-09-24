@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body {
+    background-color: rgba(245, 205, 205, 0.979);
+    color: rgb(46, 43, 43);
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    /* комментарий */
+}
+
+.kazah {
+    max-width: 200px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 50, 50, 50);
+}
+
+#tao {
+    max-width: 320px;
+    border-radius: 10%;
+    box-shadow: 4px 4px 14px rgba(50, 0, 0, 25);
+}
+
+.top {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    .top {
+        display: block;
+        text-align: center;
+    }
+}
+
+.top-text {
+    padding: 10px 15px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(245, 205, 205, 0.979);
+    border: 2px solid rgba(245, 205, 205, 0.979);
+    border-radius: 10px;
+}
+
+.top p {
+    color: gray;
+    margin: 0;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+
+.hf {
+    background: rgb(179, 160, 160);
+    padding: 15px 20px 25px 30px;
+    border: 5px solid black;
+    border-bottom-style: double;
+    border-top-width: 3px;
+    margin: 20px 15px 10px 5px;
+}
+
+/*.box-model > div {
+    background-color: black;
+    float: left;
+    height: 200px;
+    width: 25%;
+    border: 1px double whitesmoke;
+    box-sizing: border-box; 
+} */
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: dimgrey;
+}
+
+a:visited {
+    color: rgb(46, 43, 43);
+}
+
+.tabl {
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.bg-aq {
+    background-color: rgb(224, 255, 245);
+}
+
+.bg-bi {
+    background-color: rgb(255, 240, 221);
+}
+
+.bg-bl {
+    background-color: rgb(210, 240, 250);
+}
+
+.list {
+    padding: 10px 20px;
+}
+
+.list li {
+    color: rgb(255, 162, 49);
+    margin-bottom: 10px;
+}
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(1), td:nth-child(3) {
+    color: rgb(238, 83, 83);
+}
+
+/* .table tr:nth-child(odd) {
+    background-color: blanchedalmond;
+} */
+
+.contact h2{
+    text-align: center;
+}
+
+.form label{
+    display: block;
+    font-size: 14px;
+    color: rgb(22, 21, 88);
+}
+
+.form textarea, 
+.form input {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    margin-bottom: 20px;
+}
+
+body {
+    margin-bottom: 500px;
+}
+
+.form-button {
+    background-color: black;
+    padding: 15px 20px;
+    color: bisque;
+    border: 2px solid;
+    border-radius: 10px;
+    font-family: inherit;
+    cursor: pointer;
+    position: static;
+}
+
+.form-button:hover {
+    opacity: 0.8;
+}
